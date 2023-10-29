@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+
+  .container{
+    display: flex;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  .box1, .box4{
+    background-color: black;
+    padding: 20px;
+  }
+
+  .boxes {
+  width: 100%;
+  }
+
+  .box2 {
+    background-color: rgb(113, 183, 113);
+    padding: 20px;
+  height: 50%;
+  }
+
+  .box3 {
+    background-color: rgb(234, 106, 31);
+    padding: 20px;
+     height: 50%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .container {
+      flex-direction:column;
+    }
+    .boxes {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
