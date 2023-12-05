@@ -20,7 +20,7 @@ The Git workflow involves the use of three main components: the working director
 
 # Git Workflow Steps
 
-1. `**Clone the Repository:**`
+1. **`Clone the Repository:`**
 
 Clone the Git repository to your local machine using the following command:
 
@@ -28,7 +28,7 @@ Clone the Git repository to your local machine using the following command:
 git clone <repository-url>
 ```
 
-2. `**Create a Feature Branch:**`
+2. **`Create a Feature Branch:`**
 
 Create a new branch for your feature or bug fix. This helps isolate changes and prevents interference with the main codebase:
 
@@ -36,11 +36,11 @@ Create a new branch for your feature or bug fix. This helps isolate changes and 
 git checkout -b feature-branch
 ```
 
-3. `**Work on the Feature:**`
+3. **`Work on the Feature:`**
 
 Make changes, add new files, or modify existing ones in your feature branch within the local working directory.
 
-4. `**Stage and Commit Changes:**`
+4. **`Stage and Commit Changes:`**
 
 Stage your changes using the `git add` command and commit them to your local branch with a descriptive message:
 
@@ -49,7 +49,7 @@ git add .
 git commit -m "Description of changes made"
 ```
 
-5. `**Push the Feature Branch:**`
+5. **`Push the Feature Branch:`**
 
 Periodically, push your feature branch to the remote repository to make it available to others or to back up your work:
 
@@ -57,15 +57,15 @@ Periodically, push your feature branch to the remote repository to make it avail
 git push origin feature-branch
 ```
 
-6. `**Create a Pull Request (PR) or Merge Request (MR):**`
+6. **`Create a Pull Request (PR) or Merge Request (MR):`**
 
 Initiate a pull request or merge request to propose your changes for inclusion in the main branch. This allows for code review before merging.
 
-7. `**Code Review:**`
+7. **`Code Review:`**
 
 Team members review your proposed changes, providing feedback and suggestions to ensure code quality and alignment with project goals.
 
-8. `**Merge the Feature Branch:**`
+8. **`Merge the Feature Branch:`**
 
 After approval, merge your feature branch into the main branch (e.g., `main` or `master`):
 
@@ -74,7 +74,7 @@ git checkout main
 git merge feature-branch
 ```
 
-9. `**Push Changes to Remote Repository:**`
+9. **`Push Changes to Remote Repository:`**
 
 Push the merged changes to the remote repository to update the main branch:
 
@@ -82,7 +82,7 @@ Push the merged changes to the remote repository to update the main branch:
 git push origin main
 ```
 
-10. `**Delete Feature Branch (Optional):**`
+10. **`Delete Feature Branch (Optional):`**
 
 Once the feature is successfully merged, optionally delete the feature branch both locally and remotely:
 
@@ -92,4 +92,3 @@ git push origin --delete feature-branch
 ```
 
 This Git workflow promotes collaboration, code isolation, and systematic integration of new features into the main codebase.
-
