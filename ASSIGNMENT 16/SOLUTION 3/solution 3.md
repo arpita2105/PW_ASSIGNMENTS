@@ -25,7 +25,7 @@ Ignoring certain files helps minimize merge conflicts, especially when multiple 
 
 A well-maintained `.gitignore` file improves the clarity and readability of the repository. Developers can easily understand which files and directories are intentionally excluded from version control, making it easier to navigate and contribute to the project.
 
-- `**Customizing for Project Needs:**`
+- **`Customizing for Project Needs:`**
 
 Each project has its own set of requirements and conventions. The `.gitignore` file allows developers to customize which files and directories should be excluded based on the specific needs of the project, contributing to a more efficient version control workflow.
 
